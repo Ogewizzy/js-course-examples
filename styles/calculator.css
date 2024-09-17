@@ -1,0 +1,32 @@
+div{
+  padding-bottom: 18px;
+}
+
+body{
+  background-color: black;
+  }
+
+  .button{
+    padding: 15px 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(24, 24, 24);
+    margin-right: 10px;
+    margin-bottom: 3px;
+    color: white;
+  }
+
+  p{
+    color: white;
+    font-weight: bold;
+  }
+
+  .second-button{
+    padding: 15px 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: orange;
+    margin-right: 10px;
+    margin-bottom: 3px;
+  }
+  
