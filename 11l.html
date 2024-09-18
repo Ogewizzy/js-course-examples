@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      array pratice
+    </title>
+  </head>
+  <body>
+    <script>
+
+      function minMax(nums) {
+
+         const result = {
+          min: nums[0],
+          max: nums[0]
+         }
+
+          for(i = 0; i < nums.length; i++){
+const value = nums[i];
+
+
+if (value < result.min){
+
+  result.min = value;
+}
+
+if (value > result.max){
+
+result.max = value;
+}
+
+          }
+        return result;
+      }
+
+
+      
+      console.log(minMax([10, 15, 200]));
+
+    </script>
+  </body>
+</html>
